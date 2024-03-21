@@ -8,8 +8,8 @@ const Navbar = () => {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
-                <div className="w-full navbar container mx-auto lg:px-60">
-                    <div className="flex-1 mx-2">
+                <div className="w-full navbar container mx-auto xl:px-60">
+                    <div className="flex-1 px-8 lg:px-0">
                         <Link className="font-bold text-white" to="/">BOOKING-BD</Link>
                     </div>
                     <div className="flex-none lg:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side z-50">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-purple-400 text-white">
 
